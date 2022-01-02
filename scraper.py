@@ -58,7 +58,7 @@ while True:
             system("title " + tit)
             print(Fore.WHITE + "[" + Fore.MAGENTA + "+" + Fore.WHITE + "]" + Fore.MAGENTA + user.strip())
             scraped = open('scraped.txt', 'a', encoding="utf-8")
-            scraped.write(user.strip() + '>  'names + '\n')
+            scraped.write(user.strip() + '>  ' + names + '\n')
         elif res.status_code == 404:
             tit = random.choice(titles)
             system("title " + tit)
