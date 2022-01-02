@@ -1,9 +1,9 @@
 # TikTok-Name-Scraper
-TikTok Profile Name Scraper
+TikTok Profile Profile Name Scraper
 ## Info
-Useful for beaming.
-![image](https://user-images.githubusercontent.com/70502697/141599880-a07a0733-5b89-4614-aab4-2a79650b7272.png)
+![image](https://user-images.githubusercontent.com/70502697/147863002-5dbd497c-dc69-4ca8-a620-350461f14c68.png)
 ## Setup
-Python3, BeatifulSoup,Requests,Colorama
-Also you need your own cookie from your browser.
-![image](https://user-images.githubusercontent.com/70502697/141600157-c396f402-a94a-4d5d-b598-3bfad3938f79.png)
+1. pip install bs4
+2. pip install colorama
+3. pip install requests
+4. python/3 scraper.py
